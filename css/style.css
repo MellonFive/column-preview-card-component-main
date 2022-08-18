@@ -75,7 +75,7 @@ main .menu .button {
 }
 
 main .menu .button:hover {
-    transform: scale(1.2), rotate(-45deg);
+    transform: scale(1.2);
 }
 
 main .menu.-sedans .button {
