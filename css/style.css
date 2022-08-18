@@ -8,3 +8,84 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    width: 67%;
+}
+
+main .menu {
+    padding: 3rem;
+    height: 100%;
+}
+
+main .menu.-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+
+}
+
+main .menu.-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+main .menu.-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+main .menu .title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: #FFF;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main .menu.-sedans .description, .menu.-suvs .description, .menu.-luxury .description {
+    font-size: .9rem;
+    list-style: 1.3rem;
+    margin-bottom: 5rem;
+}
+
+main .menu .description {
+    opacity: 0.8;
+    color: #FFF;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main .menu .button {
+    display: inline-block;
+    margin-top: 1.2rem;
+    background-color: hsl(0, 0%, 95%);
+    padding: .9rem 2rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .9rem;
+    transition: .5s;
+}
+
+main .menu .button:hover {
+    transform: scale(1.2), rotate(-45deg);
+}
+
+main .menu.-sedans .button {
+    color: hsl(31, 77%, 52%);
+}
+
+main .menu.-suvs .button {
+    color: hsl(184, 100%, 22%);
+}
+
+main .menu.-luxury .button {
+    color: hsl(179, 100%, 13%);
+}
