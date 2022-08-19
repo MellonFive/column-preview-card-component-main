@@ -89,3 +89,13 @@ main .menu.-suvs .button {
 main .menu.-luxury .button {
     color: hsl(179, 100%, 13%);
 }
+
+@media (max-width: 700px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+        align-items: center;
+    }
+}
